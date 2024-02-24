@@ -1,0 +1,155 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira Extra Condensed', sans-serif;
+
+}
+
+.home {
+
+    background: #4624BF;
+    display: flex;
+
+}
+
+.nome {
+
+    font-size: 2vw;
+    color: white;
+    font-weight: bolder;
+    margin-left: 2vw;
+
+}
+
+.menu-desktop {
+    text-align: right;
+    width: 100%;
+}
+
+.menu-desktop ul {
+    list-style: none;
+}
+
+.menu-desktop a {
+
+    color: black;
+    text-decoration: none;
+    margin-right: 4vw;
+    font-size: 30px;
+
+}
+
+.menu-desktop li {
+
+    display: inline-block;
+
+}
+
+.bem {
+
+    display: inline-block;
+
+}
+
+.logo {
+
+    background-color: #613AC3;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.produtos {
+    display: flex;
+    margin-top: 3vw;
+    padding: 20px;
+
+}
+
+.categorias {
+    margin-left: 3vw;
+    border: 2px solid black;
+    max-width: 27.7vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.categorias img{
+    max-width: 100%;
+}
+
+.times{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 85%;
+    font-size: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    
+}
+.categorias button{
+
+    font-size: 2vw;
+    justify-content: center;
+    max-width: 50%;
+    margin: 2vw 0 2vw 25%;
+
+}
+
+.saiba-mais{
+
+    background-color: #613AC3;
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.saiba-mais h2{
+
+    margin-top: -4%;
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2vw;
+
+}
+
+.card{
+    width: 15%;
+    text-align: center;
+}
+
+.contato{
+    display: flex;
+    background-color: #613AC3;
+    justify-content: space-between;
+    font-size:  3vw;
+}
+
+.redes-social{
+    margin-right: 10%;
+    
+}
+
+.metodos img{
+    width: 3vw;
+    height: 3vw;
+}
+
+.redes-social img{
+    width: 3vw;
+    height: 3vw;
+
+}
